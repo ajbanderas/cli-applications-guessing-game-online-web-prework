@@ -19,6 +19,7 @@ def end_game(computer_num, player_input)
   else
     puts "Sorry! The computer guessed #{computer_num}."
   end
+  binding.pry
 end
 
 def run_guessing_game

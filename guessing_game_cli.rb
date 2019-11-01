@@ -27,4 +27,6 @@ def run_guessing_game
   computer_num = generate_number
   prompt_user
   player_num = get_user_input
+  display_result(compare_numbers(computer_num, player_num), computer_num)
+  goodbye
 end

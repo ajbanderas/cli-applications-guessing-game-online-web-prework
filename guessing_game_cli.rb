@@ -1,3 +1,4 @@
+require "pry"
 
 def generate_number
   rand(6) + 1

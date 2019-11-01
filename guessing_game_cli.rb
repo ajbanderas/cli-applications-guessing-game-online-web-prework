@@ -17,7 +17,7 @@ def end_game(computer_num, player_input)
   elsif player_input == computer_num
     puts "You guessed the correct number!"
   else
-    
+    puts "Sorry! The computer guessed #{computer_num}."
   end
 end
 

@@ -1,5 +1,4 @@
 
-
 def generate_number
   rand(6) + 1
 end
@@ -15,7 +14,7 @@ end
 def end_game(computer_num, player_input)
   if player_input == "exit"
     puts "Goodbye!"
-  elsif player_input == computer_num
+  elsif computer_num == player_input
     puts "You guessed the correct number!"
   else
     puts "Sorry! The computer guessed #{computer_num}."

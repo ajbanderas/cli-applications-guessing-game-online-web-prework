@@ -14,7 +14,7 @@ end
 def end_game(computer_num, player_input)
   if player_input == "exit"
     puts "Goodbye!"
-  elsif (computer_num == player_input)
+  elsif computer_num == player_input.to_i
     puts "You guessed the correct number!"
   else
     puts "Sorry! The computer guessed #{computer_num}."

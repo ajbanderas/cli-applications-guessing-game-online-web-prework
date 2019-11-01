@@ -1,6 +1,6 @@
 
 def generate_number
-  rand(6)+1
+  rand(6) + 1
 end
 
 def prompt_user

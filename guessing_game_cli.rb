@@ -12,9 +12,7 @@ def get_user_input
 end
 
 def end_game(computer_num, player_input)
-  if computer_num == player_input
-    puts "You guessed the correct number!"
-  end
+  
 end
 
 def run_guessing_game
@@ -24,10 +22,10 @@ def run_guessing_game
   end_game(computer_num, player_input)
 end
 
- # if player_input == "exit"
-  #  puts "Goodbye!"
-  #elsif computer_num == player_input
-   # puts "You guessed the correct number!"
-  #else
-   # puts "Sorry! The computer guessed #{computer_num}."
-  #end
+  if player_input == "exit"
+    puts "Goodbye!"
+  elsif computer_num == player_input
+    puts "You guessed the correct number!"
+  else
+    puts "Sorry! The computer guessed #{computer_num}."
+  end

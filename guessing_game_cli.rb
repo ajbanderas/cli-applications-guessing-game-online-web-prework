@@ -15,8 +15,8 @@ def compare_numbers(computer_num, player_num)
   computer_num == player_num
 end
 
-def display_result(result)
-  result ? 
+def display_result(result, computer_num)
+  result ? "You guessed the correct number!" : 
 end
 
 def run_guessing_game

@@ -4,29 +4,24 @@ def generate_number
 end
 
 def prompt_user
-  "Hello, guess a number between 1 and 6."
+  puts "Hello, guess a number between 1 and 6."
 end
 
 def get_user_input
-  gets
+  gets.chomp
 end
 
-def compare_numbers(computer_num, player_num)
-  computer_num == player_num
-end
-
-def display_result(result, computer_num)
-  
-end
-
-def goodbye
-  "Goodbye!"
+def end_game(computer_num, player_input)
+  if player_input == "exit"
+    puts "Goodbye!"
+  elsif player_input == computer_num
+    
+  end
 end
 
 def run_guessing_game
   computer_num = generate_number
   prompt_user
-  player_num = get_user_input
-  display_result(compare_numbers(computer_num, player_num), computer_num)
-  goodbye
+  player_input = get_user_input
+  
 end

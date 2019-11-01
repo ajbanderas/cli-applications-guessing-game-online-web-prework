@@ -25,5 +25,5 @@ def run_guessing_game
   computer_num = generate_number
   prompt_user
   player_input = get_user_input
-  
+  end_game(computer_num, player_input)
 end

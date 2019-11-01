@@ -13,7 +13,7 @@ end
 
 def end_game(computer_num, player_input)
   if computer_num == player_input
-    puts "Congrats!"
+    puts "You guessed the correct number!"
 end
 
 def run_guessing_game

@@ -20,6 +20,7 @@ def display_result(result, computer_num)
 end
 
 def goodbye
+  "Goodbye!"
 end
 
 def run_guessing_game

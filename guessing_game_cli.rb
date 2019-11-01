@@ -16,7 +16,7 @@ def compare_numbers(computer_num, player_num)
 end
 
 def display_result(result, computer_num)
-  result ? "You guessed the correct number!" : "Sorry! The computer guessed #{computer_num}."
+  result ? puts "You guessed the correct number!" : puts "Sorry! The computer guessed #{computer_num}."
 end
 
 def goodbye
